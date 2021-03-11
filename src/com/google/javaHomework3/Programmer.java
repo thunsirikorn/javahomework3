@@ -1,6 +1,8 @@
 package com.google.javaHomework3;
 
-public class Programmer extends Employee {
+import com.google.javaHomework4.IWebsiteCreator;
+
+public class Programmer extends Employee implements IWebsiteCreator {
 	public Programmer(String firstnameInput, String lastnameInput, int salaryInput, String positionInput) {
 		super(firstnameInput, lastnameInput, salaryInput, positionInput);
 	}
